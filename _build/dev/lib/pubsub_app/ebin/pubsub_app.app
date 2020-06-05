@@ -1,0 +1,9 @@
+{application,pubsub_app,
+             [{applications,[kernel,stdlib,elixir,logger,phoenix_pubsub]},
+              {description,"pubsub_app"},
+              {modules,['Elixir.PubsubApp','Elixir.PubsubApp.Application',
+                        'Elixir.PubsubApp.Fridge',
+                        'Elixir.PubsubApp.ShoppingList']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.PubsubApp.Application',[]}}]}.
