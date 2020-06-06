@@ -1,0 +1,14 @@
+version: '3.6'
+
+services:
+  pubsub_app:
+    build:
+      context: .
+      dockerfile: scripts/Dockerfile
+    image: pubsub/pubsub:1.0
+    hostname: pubsub
+    restart: always
+    environment:
+      NODE_NAME: pubsub
+      NODE_HOST: "localhost"
+
