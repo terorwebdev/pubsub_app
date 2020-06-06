@@ -1,6 +1,10 @@
 # PubsubApp
 
 **TODO: Add description**
+Sources: -->
+https://www.pompecki.com/post/phoenix-pubsub/
+https://www.youtube.com/watch?v=8DBwkNrcfLA
+
 
 ## Installation
 
