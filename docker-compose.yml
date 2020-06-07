@@ -6,7 +6,6 @@ services:
       context: .
       dockerfile: scripts/Dockerfile
     image: pubsub/pubsub:1.0
-    hostname: pubsub
     restart: always
     environment:
       NODE_NAME: pubsub
